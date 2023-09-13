@@ -10,6 +10,6 @@ numeros_pares = [num for num in numeros if num % 2 == 0]
 
 if len(numeros_pares) > 0:
     media_pares = sum(numeros_pares) / len(numeros_pares)
-    print(f"A média dos números pares é: {media_pares:.2f}")
+    print(f"A média dos números pares é: {media_pares:.2f}") 
 else:
     print("Não há números pares na lista.")
